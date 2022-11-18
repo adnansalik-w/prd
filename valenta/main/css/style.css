@@ -121,12 +121,11 @@
 
 /* Chatbot Changes */
 
-.rwc-embed{
-  bottom: 10px !important;
+.rwc-embed {
+  bottom: -5px !important;
 }
 
-
-.rwc-embed__thumb {
+.rwc-embed-thumb {
   color: rgba(255, 255, 255, 0) !important;
   border-radius: 0% !important;
   box-shadow: none !important;
@@ -136,14 +135,14 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.rwc-embed__thumb img {
+.rwc-embed-thumb img {
   max-height: none !important;
   max-width: none !important;
-  height: 150px !important;
+  width: 120px !important;
 }
 
-.rwc-embed__thumb img,
-.rwc-embed__thumb svg {
+.rwc-embed-thumb img,
+.rwc-embed-thumb svg {
   position: relative !important;
   top: auto !important;
   bottom: 0% !important;
@@ -152,4 +151,8 @@
 
 .rwc-embed__thumb span.rwc-embed__thumb-unread {
   background: rgba(0, 0, 0, 0) !important;
+}
+
+.global-commands {
+  top: 10% !important;
 }
